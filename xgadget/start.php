@@ -15,7 +15,7 @@
 function xgadget_init() {
     		
 	//add a widget
-	elgg_register_widget_type('xgadget', elgg_echo('xgadget:google:gadgets'), elgg_echo('xgadget:add:to:page'), 'all,index', TRUE);
+	elgg_register_widget_type('xgadget', elgg_echo('xgadget:google:gadgets'), elgg_echo('xgadget:add:to:page'), 'all,index,groups', TRUE);
 }
 		
 elgg_register_event_handler('init','system','xgadget_init');
