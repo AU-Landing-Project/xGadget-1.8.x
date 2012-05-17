@@ -1,0 +1,7 @@
+== Version History ==
+
+x.x:
+
+1.0 (05/17/2012):
+
+- Initial upgrade for 1.8 compatibility
